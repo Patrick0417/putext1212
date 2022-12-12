@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,7 +15,7 @@ public class pumap extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pumap2);
 
-        Button btn = findViewById(R.id.btn3) ;
+        ImageButton btn = findViewById(R.id.imageButton3) ;
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

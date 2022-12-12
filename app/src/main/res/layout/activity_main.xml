@@ -39,17 +39,38 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <Button
+            <ImageButton
                 android:id="@+id/btn1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="校園介紹" />
+                android:layout_height="86dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:scaleX="0.5"
+                android:scaleY="2"
+                app:srcCompat="@drawable/about" />
 
-            <Button
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
                 android:id="@+id/btn2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="地圖" />
+                android:layout_height="60dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:scaleX="0.5"
+                android:scaleY="2.8"
+                app:srcCompat="@drawable/map" />
+
         </LinearLayout>
 
     </LinearLayout>
