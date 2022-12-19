@@ -14,11 +14,31 @@
         android:theme="@style/Theme.Design.Light.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".bulid0"/>
-
+            android:name=".build1"/>
         <activity
-            android:name=".aboutpu"
-          />
+            android:name=".build2"/>
+        <activity
+            android:name=".build3"/>
+        <activity
+            android:name=".build4"/>
+        <activity
+            android:name=".build5"/>
+        <activity
+            android:name=".build6"/>
+        <activity
+            android:name=".build7"/>
+        <activity
+            android:name=".build8"/>
+        <activity
+            android:name=".build9"/>
+        <activity
+            android:name=".build10"/>
+        <activity
+            android:name=".build11"/>
+        <activity
+            android:name=".bulid0"/>
+        <activity
+            android:name=".aboutpu"/>
         <activity
             android:name=".pumap"
             android:exported="false" />

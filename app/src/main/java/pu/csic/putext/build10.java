@@ -8,21 +8,22 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class bulid0 extends AppCompatActivity {
-    //主顧樓
+public class build10 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //思源
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.bulid0);
-
+        setContentView(R.layout.bulid10);
         Button b0map = findViewById(R.id.build0map);
         b0map.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Uri web = Uri.parse("https://www.google.com/maps/dir//433%E5%8F%B0%E4%B8%AD%E5%B8%82%E6%B2%99%E9%B9%BF%E5%8D%80%E4%B8%BB%E9%A1%A7%E6%A8%93/@24.2270384,120.5813821,17z/data=!4m17!1m7!3m6!1s0x346915ad3a460ea9:0x7739c6a8980681dd!2zNDMz5Y-w5Lit5biC5rKZ6bm_5Y2A5Li76aGn5qiT!3b1!8m2!3d24.2270384!4d120.5835708!4m8!1m0!1m5!1m1!1s0x346915ad3a460ea9:0x7739c6a8980681dd!2m2!1d120.5835708!2d24.2270384!3e3");
+                Uri web = Uri.parse("https://www.google.com.tw/maps/dir//%E5%8F%B0%E4%B8%AD%E5%B8%82%E6%B2%99%E9%B9%BF%E5%8D%80%E6%80%9D%E6%BA%90%E6%A8%93/@24.2271849,120.5824258,19.25z/data=!3m1!5s0x34691453347de391:0x6ca82baa3eda88ae!4m9!4m8!1m0!1m5!1m1!1s0x346915ad29a74413:0xa2dfcc207bc8b420!2m2!1d120.5826057!2d24.2269479!3e3?hl=zh-TW&authuser=0");
                 Intent it = new Intent(Intent.ACTION_VIEW,web);
                 startActivity(it);
             }
         });
+
+
     }
 }
