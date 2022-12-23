@@ -23,16 +23,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        //btn2 into pumap
-        ImageButton btn1 = findViewById(R.id.btn2) ;
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent1 = new Intent();
-                intent1.setClass(MainActivity.this,pumap.class);
-                startActivity(intent1);
-
-            }
-        });
     }
 }
