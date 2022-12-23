@@ -4,49 +4,138 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:background="#3E0BC8B2"
+    tools:context=".build2">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="412dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="28dp"
+        android:text="蓋夏圖書館"
+        android:textAlignment="center"
+        android:textColor="#32CCDA"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="413dp"
+        android:layout_height="55dp"
+        android:text="Luking Library"
+        android:textAlignment="center"
+        android:textColor="#11404E"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <ImageButton
+        android:id="@+id/build0map"
+        android:layout_width="72dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="48dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/mapui" />
+
+    <ImageButton
+        android:id="@+id/build0phone"
+        android:layout_width="72dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="96dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/phone" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="224dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="161dp"
+        android:text="蓋夏圖書館簡介"
+        android:textAlignment="center"
+        android:textColor="#CB04785D"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/build0phone" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="372dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="38dp"
+        android:text="    靜宜大學蓋夏圖書館（Providence University Luking Library）是靜宜大學附設的圖書館，設立於1953年，提供教職員和學生中西文書籍、期刊、電子書、視聽資料借閱等服務。"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#539EDA"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="2dp"
+        android:text="現有機構"
+        android:textAlignment="center"
+        android:textColor="#CB04785D"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="蓋夏圖書館"
-            android:textAlignment="center"
-            android:textSize="30sp" />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="277dp"
-            app:srcCompat="@drawable/build04" />
+        android:layout_marginTop="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/textView13"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Google Map位置"
-                android:textColor="#000000"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/build0map"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="位置"
-                android:textColor="#000000"
-                android:textSize="20sp" />
+                android:layout_height="392dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="12dp"
+                android:text="九樓西方語文書庫、影印區\n八樓西方語文書庫、研究小間、討論室、影印區\n	七樓	西方語文書庫、影印區\n六樓	東方語文書庫、研究小間、討論室、學習促進區、影印區\n五樓	東方語文書庫、學習促進區、影印區\n	四樓	東方語文書庫、閱讀書寫暨素養課程研發中心、學習促進區、閱覽小間、討論室、蓋夏小書房\n三樓	東方語文書庫、學位論文專區、作家書房、主題閱讀區、閱覽小間、討論室、研究小間、學習促進區\n二樓	數位學習中心、視聽資料區、個人視聽區、團體視聽室、群播區、學習促進區、音樂欣賞室、\n校史資料室[5]、蓋夏小書房、創新學習整合組\n	一樓	入口大廳、流通諮詢櫃檯、文思診療室、主題展示書城區、電子書閱讀區、典藏閱覽組、館藏發展組、知識服務組"
+                android:textAlignment="center"
+                android:textColor="#100400"
+                android:textSize="16sp" />
         </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,50 +4,121 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bulid0"
-    >
+    android:background="#34C8470B"
+    tools:context=".bulid0">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="412dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="28dp"
+        android:text="主顧樓"
+        android:textAlignment="center"
+        android:textColor="#401E13"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="主顧樓"
-            android:textAlignment="center"
-            android:textSize="30sp" />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="413dp"
+        android:layout_height="55dp"
+        android:text="Providence Hall"
+        android:textAlignment="center"
+        android:textColor="#401E13"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="277dp"
-            app:srcCompat="@drawable/build03" />
+    <ImageButton
+        android:id="@+id/build0map"
+        android:layout_width="72dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="48dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/mapui" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+    <ImageButton
+        android:id="@+id/build0phone"
+        android:layout_width="72dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="96dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/phone" />
 
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Google Map位置"
-                android:textColor="#000000"
-                android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="164dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="23dp"
+        android:text="主顧樓簡介"
+        android:textAlignment="center"
+        android:textColor="#CB7A2307"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent" />
 
-            <Button
-                android:id="@+id/build0map"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="位置"
-                android:textColor="#000000"
-                android:textSize="20sp" />
-        </LinearLayout>
-    </LinearLayout>
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="339dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="13dp"
+        android:text="    紀念創立該校的主顧修女會而命名\n（Sisters of Providence）\n英文原意是天主眷顧的意思"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#4C0C08"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="13dp"
+        android:text="現有機構"
+        android:textAlignment="center"
+        android:textColor="#CB7A2307"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="387dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="61dp"
+        android:text="4樓 資管系\n資傳系 5樓 資工系 \n6樓 資訊學院、台文系EMBA\n7樓 會計室、職涯發展暨產業促進處、\n國際暨兩岸事務處\n8樓 校長室、副校長室、秘書處、研發處、人事室"
+        android:textAlignment="center"
+        android:textColor="#100400"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

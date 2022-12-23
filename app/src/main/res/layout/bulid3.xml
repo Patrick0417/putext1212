@@ -4,49 +4,110 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:background="#3E0BC8B2"
+    tools:context=".build3">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="412dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="28dp"
+        android:text="伯鐸樓"
+        android:textAlignment="center"
+        android:textColor="#32CCDA"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="伯鐸"
-            android:textAlignment="center"
-            android:textSize="30sp" />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="413dp"
+        android:layout_height="55dp"
+        android:text="St. Peter Hall"
+        android:textAlignment="center"
+        android:textColor="#11404E"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="277dp"
-            app:srcCompat="@drawable/build01" />
+    <ImageButton
+        android:id="@+id/build0map"
+        android:layout_width="72dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="168dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/mapui" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="164dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="23dp"
+        android:text="伯鐸樓簡介"
+        android:textAlignment="center"
+        android:textColor="#CB04785D"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent" />
 
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Google Map位置"
-                android:textColor="#000000"
-                android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="351dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="13dp"
+        android:text="伯鐸為耶穌的門徒，善於言語，至四方傳道。現為外語學院三學系、中國文學系、寰宇外語教育學士學位學程、\n華語文教學中心、小劇場所在。"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#539EDA"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-            <Button
-                android:id="@+id/build0map"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="位置"
-                android:textColor="#000000"
-                android:textSize="20sp" />
-        </LinearLayout>
-    </LinearLayout>
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="13dp"
+        android:text="現有機構"
+        android:textAlignment="center"
+        android:textColor="#CB04785D"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="387dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="61dp"
+        android:text="外語學院、中國文學系、英國文學系\n、西班牙文學系、日本語文學系、\n華語文教學中心、小劇場"
+        android:textAlignment="center"
+        android:textColor="#100400"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

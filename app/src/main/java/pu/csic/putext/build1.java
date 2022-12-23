@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,7 +16,7 @@ public class build1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bulid1);
 
-        Button b0map = findViewById(R.id.build0map);
+        ImageButton b0map = findViewById(R.id.build0map);
         b0map.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -24,6 +25,7 @@ public class build1 extends AppCompatActivity {
                 startActivity(it);
             }
         });
+
 
 
     }

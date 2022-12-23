@@ -2,91 +2,194 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#C5E8F6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     tools:context=".aboutpu">
 
-    <LinearLayout
-        android:layout_width="208dp"
-        android:layout_height="733dp"
-        android:orientation="vertical"
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/newpumap" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="123dp"
+        android:layout_height="87dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
 
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:background="#FFFFFF"
-            android:contentDescription="@string/app_name"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/build04" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="                    蓋夏圖書館"
-            android:textColor="#000000" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="208dp"
-        android:layout_height="733dp"
-        android:orientation="vertical"
+    <Button
+        android:id="@+id/button"
+        android:layout_width="131dp"
+        android:layout_height="75dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="104dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="32dp"
+        android:background="#00BB86FC"
+        android:backgroundTint="#F44336"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="110dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.279" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="109dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="287dp"
+        android:layout_marginEnd="30dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="127dp"
+        android:layout_height="85dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
-        <ImageButton
-            android:id="@+id/build00"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:background="#FFFFFF"
-            android:contentDescription="@string/app_name"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/build03" />
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="114dp"
+        android:layout_height="90dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.531" />
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:text="                       主顧樓"
-            android:textColor="#000000" />
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="146dp"
+        android:layout_height="80dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
 
-        <ImageButton
-            android:id="@+id/imageButton8"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:background="#FFFFFF"
-            android:contentDescription="@string/app_name"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/build02" />
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="114dp"
+        android:layout_height="90dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694" />
 
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="                        伯凙樓"
-            android:textColor="#000000" />
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="140dp"
+        android:layout_height="77dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
 
-        <ImageButton
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:background="#FFFFFF"
-            android:contentDescription="@string/app_name"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/build01" />
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="192dp"
+        android:layout_height="136dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
 
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="                       任垣樓"
-            android:textColor="#000000" />
-
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,52 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#34C8470B"
+tools:context=".build6">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+<TextView
+    android:id="@+id/textView7"
+    android:layout_width="412dp"
+    android:layout_height="68dp"
+    android:layout_marginTop="28dp"
+    android:text="主顧聖母堂"
+    android:textAlignment="center"
+    android:textColor="#401E13"
+    android:textSize="50sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="主顧聖母堂"
-            android:textAlignment="center"
-            android:textSize="30sp" />
+<TextView
+    android:id="@+id/textView10"
+    android:layout_width="413dp"
+    android:layout_height="55dp"
+    android:text="Providence Chapel"
+    android:textAlignment="center"
+    android:textColor="#401E13"
+    android:textSize="40sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="277dp"
-            app:srcCompat="@drawable/build01" />
+    <ImageButton
+        android:id="@+id/build0map"
+        android:layout_width="72dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="60dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/mapui" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+    <ImageButton
+        android:id="@+id/build0phone"
+        android:layout_width="72dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="168dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/phone" />
 
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Google Map位置"
-                android:textColor="#000000"
-                android:textSize="20sp" />
+    <TextView
+    android:id="@+id/textView11"
+    android:layout_width="164dp"
+    android:layout_height="38dp"
+    android:layout_marginStart="176dp"
+    android:layout_marginEnd="161dp"
+    android:layout_marginBottom="23dp"
+    android:text="聖母堂簡介"
+    android:textAlignment="center"
+    android:textColor="#CB7A2307"
+    android:textSize="30sp"
+    app:layout_constraintBottom_toTopOf="@+id/textView12"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.588"
+    app:layout_constraintStart_toStartOf="parent" />
 
-            <Button
-                android:id="@+id/build0map"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="位置"
-                android:textColor="#000000"
-                android:textSize="20sp" />
-        </LinearLayout>
-    </LinearLayout>
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="341dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="124dp"
+        android:text="紀念創立該校的主顧修女會（Sisters of Providence）而命名，由洪清安設計[16]，外觀融合竹子、竹筍與魚的意象，代表包容與五餅二魚。"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#4C0C08"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
